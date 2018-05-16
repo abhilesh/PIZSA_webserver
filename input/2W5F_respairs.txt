@@ -1,0 +1,40 @@
+#######Format Description#######
+
+#This file lists all the amino acid residue pairs that constitute the interfaces in the given protein complex.
+#The residues are split into columns based on the subunits. Each line represents one interacting pair.
+#XXX:YYY:A is the format where XXX = residue number, YYY = residue type & A = protien subunit.
+#For example. 321:ALA:A is the Alanine at position 321 of the subunit A.
+#######Format Description#######
+
+InterfaceBEG : 2W5F_A-2W5F_B  
+
+resPair 525:A-359:B
+525:ASN:A            359:ASN:B       -0.272
+resPair 524:A-359:B
+524:ALA:A            359:ASN:B       -0.195
+resPair 525:B-359:A
+359:ASN:A            525:ASN:B       -0.272
+resPair 524:B-359:A
+359:ASN:A            524:ALA:B       -0.195
+resPair 127:A-126:B
+127:GLU:A            126:GLU:B       -0.091
+resPair 469:B-436:A
+436:PHE:A            469:LYS:B       -0.376
+resPair 523:B-359:A
+359:ASN:A            523:ASN:B       -1.518
+resPair 467:A-396:B
+467:ASN:A            396:TYR:B       -0.707
+resPair 523:A-359:B
+523:ASN:A            359:ASN:B       -1.518
+resPair 469:A-436:B
+469:LYS:A            436:PHE:B       -0.538
+resPair 467:B-396:A
+396:TYR:A            467:ASN:B       -0.707
+resPair 516:A-512:B
+516:GLN:A            512:TRP:B       -0.285
+resPair 516:B-512:A
+512:TRP:A            516:GLN:B       -0.072
+resPair 525:A-361:B
+525:ASN:A            361:ARG:B       0.032 
+InterfaceTER
+

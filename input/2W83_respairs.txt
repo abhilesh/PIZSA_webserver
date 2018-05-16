@@ -1,0 +1,155 @@
+#######Format Description#######
+
+#This file lists all the amino acid residue pairs that constitute the interfaces in the given protein complex.
+#The residues are split into columns based on the subunits. Each line represents one interacting pair.
+#XXX:YYY:A is the format where XXX = residue number, YYY = residue type & A = protien subunit.
+#For example. 321:ALA:A is the Alanine at position 321 of the subunit A.
+#######Format Description#######
+
+InterfaceBEG : 2W83_B-2W83_C  
+
+58:LYS:B             429:CYS:C       -0.137
+76:HIS:B             417:LYS:C       -0.449
+62:TRP:B             421:ILE:C       -0.293
+79:THR:B             417:LYS:C       -0.482
+49:VAL:B             424:VAL:C       -1.185
+34:LYS:B             435:GLN:C       -0.652
+51:THR:B             428:THR:C       -1.365
+15:ARG:B             425:ASP:C       -1.667
+51:THR:B             432:ASP:C       -1.667
+79:THR:B             418:ASN:C       -2.083
+49:VAL:B             428:THR:C       -0.761
+15:ARG:B             421:ILE:C       -0.714
+34:LYS:B             432:ASP:C       -0.692
+60:ASN:B             425:ASP:C       -2.090
+62:TRP:B             424:VAL:C       -0.510
+53:THR:B             432:ASP:C       -0.625
+58:LYS:B             432:ASP:C       -2.050
+60:ASN:B             429:CYS:C       -1.117
+62:TRP:B             425:ASP:C       -1.168
+InterfaceTER
+
+InterfaceBEG : 2W83_B-2W83_D  
+
+76:HIS:B             413:LEU:D       -0.682
+73:LEU:B             412:ALA:D       -0.702
+49:VAL:B             423:LYS:D       -0.577
+76:HIS:B             412:ALA:D       -0.475
+62:TRP:B             420:LEU:D       -0.695
+77:TYR:B             416:VAL:D       -1.064
+47:PHE:B             423:LYS:D       -0.678
+75:ARG:B             409:THR:D       -0.433
+47:PHE:B             420:LEU:D       -0.790
+InterfaceTER
+
+InterfaceBEG : 2W83_A-2W83_C  
+
+76:HIS:A             413:LEU:C       -1.364
+47:PHE:A             420:LEU:C       -0.790
+62:TRP:A             420:LEU:C       -0.695
+73:LEU:A             416:VAL:C       -0.596
+76:HIS:A             412:ALA:C       -0.950
+77:TYR:A             416:VAL:C       -1.064
+73:LEU:A             415:ILE:C       -0.702
+73:LEU:A             412:ALA:C       -0.702
+72:PRO:A             408:GLU:C       -0.557
+47:PHE:A             423:LYS:C       -1.017
+InterfaceTER
+
+InterfaceBEG : 2W83_C-2W83_D  
+
+431:LYS:C            427:LEU:D       -0.379
+413:LEU:C            417:LYS:D       -0.379
+399:LEU:C            400:ILE:D       -0.724
+430:GLU:C            431:LYS:D       -1.532
+424:VAL:C            423:LYS:D       -0.345
+416:VAL:C            417:LYS:D       -0.352
+420:LEU:C            421:ILE:D       -0.724
+434:LEU:C            438:LEU:D       -0.980
+445:LYS:C            448:LEU:D       -0.369
+403:ASN:C            402:GLU:D       -2.392
+406:LEU:C            410:LYS:D       -0.474
+402:GLU:C            403:ASN:D       -2.392
+417:LYS:C            413:LEU:D       -0.379
+420:LEU:C            417:LYS:D       -0.369
+392:MET:C            396:VAL:D       -0.616
+441:VAL:C            445:LYS:D       -0.352
+403:ASN:C            403:ASN:D       -2.491
+445:LYS:C            444:ALA:D       -0.430
+441:VAL:C            441:VAL:D       -1.185
+427:LEU:C            424:VAL:D       -0.596
+448:LEU:C            445:LYS:D       -0.369
+444:ALA:C            445:LYS:D       -0.430
+438:LEU:C            437:GLU:D       -0.522
+438:LEU:C            434:LEU:D       -0.980
+409:THR:C            410:LYS:D       -0.805
+449:GLU:C            448:LEU:D       -0.459
+448:LEU:C            449:GLU:D       -0.459
+420:LEU:C            424:VAL:D       -0.607
+413:LEU:C            414:ASN:D       -0.629
+427:LEU:C            431:LYS:D       -0.379
+396:VAL:C            396:VAL:D       -1.185
+428:THR:C            427:LEU:D       -0.600
+424:VAL:C            424:VAL:D       -1.185
+417:LYS:C            420:LEU:D       -0.369
+431:LYS:C            430:GLU:D       -1.532
+431:LYS:C            434:LEU:D       -0.369
+413:LEU:C            413:LEU:D       -0.980
+406:LEU:C            403:ASN:D       -0.639
+435:GLN:C            434:LEU:D       -0.559
+406:LEU:C            406:LEU:D       -0.980
+406:LEU:C            407:LEU:D       -0.980
+427:LEU:C            427:LEU:D       -1.961
+434:LEU:C            435:GLN:D       -0.559
+437:GLU:C            438:LEU:D       -0.417
+403:ASN:C            406:LEU:D       -0.639
+424:VAL:C            420:LEU:D       -0.607
+410:LYS:C            409:THR:D       -0.805
+421:ILE:C            420:LEU:D       -0.724
+399:LEU:C            399:LEU:D       -0.980
+414:ASN:C            413:LEU:D       -1.259
+434:LEU:C            431:LYS:D       -0.369
+420:LEU:C            420:LEU:D       -0.980
+InterfaceTER
+
+InterfaceBEG : 2W83_A-2W83_E  
+
+168:TRP:A            137:GLU:E       -0.536
+149:TRP:A            149:TRP:E       -0.990
+137:GLU:A            150:TYR:E       -0.781
+136:GLN:A            150:TYR:E       -2.385
+150:TYR:A            133:HIS:E       -0.793
+148:ASN:A            143:ARG:E       -0.500
+153:PRO:A            133:HIS:E       -1.155
+149:TRP:A            142:THR:E       -0.801
+150:TYR:A            136:GLN:E       -0.397
+148:ASN:A            142:THR:E       -0.687
+133:HIS:A            132:PRO:E       -0.479
+137:GLU:A            168:TRP:E       -0.804
+150:TYR:A            137:GLU:E       -0.781
+142:THR:A            149:TRP:E       -0.534
+149:TRP:A            136:GLN:E       -1.890
+146:ASP:A            145:ARG:E       -0.971
+143:ARG:A            148:ASN:E       -1.000
+133:HIS:A            153:PRO:E       -1.155
+InterfaceTER
+
+InterfaceBEG : 2W83_A-2W83_D  
+
+60:ASN:A             429:CYS:D       -1.117
+58:LYS:A             432:ASP:D       -1.366
+79:THR:A             417:LYS:D       -0.482
+62:TRP:A             425:ASP:D       -1.168
+58:LYS:A             429:CYS:D       -0.274
+60:ASN:A             425:ASP:D       -2.090
+51:THR:A             428:THR:D       -2.726
+49:VAL:A             424:VAL:D       -1.185
+15:ARG:A             421:ILE:D       -0.408
+15:ARG:A             425:ASP:D       -1.667
+79:THR:A             418:ASN:D       -0.694
+60:ASN:A             428:THR:D       -0.917
+51:THR:A             432:ASP:D       -0.835
+62:TRP:A             424:VAL:D       -0.510
+62:TRP:A             421:ILE:D       -0.293
+InterfaceTER
+

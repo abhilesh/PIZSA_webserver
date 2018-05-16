@@ -1,0 +1,80 @@
+InterfaceBEG                             : 3BX1_B-3BX1_C  
+Input_pdb                                : 3BX1.pdb  
+Interface                                : 3BX1_B-3BX1_C  
+Number of Interacting Residue Pairs      : 13   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -9.672
+Normalized Raw Score                     : -0.744
+Average Background Score                 : -7.811
+Standard Deviation                       : 1.349 
+Z-score                                  : -1.379
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 3BX1_A-3BX1_C  
+Input_pdb                                : 3BX1.pdb  
+Interface                                : 3BX1_A-3BX1_C  
+Number of Interacting Residue Pairs      : 23   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -17.586
+Normalized Raw Score                     : -0.765
+Average Background Score                 : -14.681
+Standard Deviation                       : 2.211 
+Z-score                                  : -1.314
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 3BX1_C-3BX1_D  
+Input_pdb                                : 3BX1.pdb  
+Interface                                : 3BX1_C-3BX1_D  
+Number of Interacting Residue Pairs      : 12   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -8.855
+Normalized Raw Score                     : -0.738
+Average Background Score                 : -7.155
+Standard Deviation                       : 1.350 
+Z-score                                  : -1.259
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 3BX1_A-3BX1_D  
+Input_pdb                                : 3BX1.pdb  
+Interface                                : 3BX1_A-3BX1_D  
+Number of Interacting Residue Pairs      : 12   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -9.181
+Normalized Raw Score                     : -0.765
+Average Background Score                 : -7.059
+Standard Deviation                       : 1.371 
+Z-score                                  : -1.548
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 3BX1_B-3BX1_D  
+Input_pdb                                : 3BX1.pdb  
+Interface                                : 3BX1_B-3BX1_D  
+Number of Interacting Residue Pairs      : 18   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -12.255
+Normalized Raw Score                     : -0.681
+Average Background Score                 : -10.836
+Standard Deviation                       : 1.797 
+Z-score                                  : -0.789
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+

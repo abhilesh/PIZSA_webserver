@@ -1,0 +1,80 @@
+InterfaceBEG                             : 3FM8_B-3FM8_C  
+Input_pdb                                : 3FM8.pdb  
+Interface                                : 3FM8_B-3FM8_C  
+Number of Interacting Residue Pairs      : 5    
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -2.453
+Normalized Raw Score                     : -0.491
+Average Background Score                 : -2.099
+Standard Deviation                       : 0.715 
+Z-score                                  : -0.494
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+
+InterfaceBEG                             : 3FM8_A-3FM8_C  
+Input_pdb                                : 3FM8.pdb  
+Interface                                : 3FM8_A-3FM8_C  
+Number of Interacting Residue Pairs      : 18   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -15.232
+Normalized Raw Score                     : -0.846
+Average Background Score                 : -13.221
+Standard Deviation                       : 1.691 
+Z-score                                  : -1.189
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 3FM8_C-3FM8_D  
+Input_pdb                                : 3FM8.pdb  
+Interface                                : 3FM8_C-3FM8_D  
+Number of Interacting Residue Pairs      : 19   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -20.387
+Normalized Raw Score                     : -1.073
+Average Background Score                 : -15.546
+Standard Deviation                       : 1.753 
+Z-score                                  : -2.762
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 3FM8_A-3FM8_D  
+Input_pdb                                : 3FM8.pdb  
+Interface                                : 3FM8_A-3FM8_D  
+Number of Interacting Residue Pairs      : 4    
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -2.514
+Normalized Raw Score                     : -0.628
+Average Background Score                 : -2.143
+Standard Deviation                       : 0.774 
+Z-score                                  : -0.479
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+
+InterfaceBEG                             : 3FM8_B-3FM8_D  
+Input_pdb                                : 3FM8.pdb  
+Interface                                : 3FM8_B-3FM8_D  
+Number of Interacting Residue Pairs      : 18   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -14.403
+Normalized Raw Score                     : -0.800
+Average Background Score                 : -11.565
+Standard Deviation                       : 1.684 
+Z-score                                  : -1.685
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+

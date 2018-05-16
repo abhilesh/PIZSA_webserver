@@ -1,0 +1,88 @@
+#######Format Description#######
+
+#This file lists all the amino acid residue pairs that constitute the interfaces in the given protein complex.
+#The residues are split into columns based on the subunits. Each line represents one interacting pair.
+#XXX:YYY:A is the format where XXX = residue number, YYY = residue type & A = protien subunit.
+#For example. 321:ALA:A is the Alanine at position 321 of the subunit A.
+#######Format Description#######
+
+InterfaceBEG : 2VDU_E-2VDU_F  
+
+278:THR:E            280:LEU:F       -0.509
+284:ALA:E            249:ASP:F       -0.618
+278:THR:E            281:PRO:F       -0.972
+236:PRO:E            244:GLU:F       -0.560
+245:TRP:E            283:PRO:F       -0.658
+280:LEU:E            278:THR:F       -0.509
+248:ASN:E            283:PRO:F       -0.570
+250:GLU:E            286:LEU:F       -0.417
+283:PRO:E            248:ASN:F       -0.570
+249:ASP:E            284:ALA:F       -0.618
+239:GLU:E            239:GLU:F       -0.789
+284:ALA:E            250:GLU:F       -0.551
+283:PRO:E            245:TRP:F       -0.987
+286:LEU:E            250:GLU:F       -1.044
+281:PRO:E            278:THR:F       -0.972
+InterfaceTER
+
+InterfaceBEG : 2VDU_B-2VDU_F  
+
+229:GLN:B            248:ASN:F       -2.137
+231:PHE:B            244:GLU:F       -0.351
+InterfaceTER
+
+InterfaceBEG : 2VDU_D-2VDU_E  
+
+229:GLN:D            248:ASN:E       -1.424
+InterfaceTER
+
+InterfaceBEG : 2VDU_D-2VDU_F  
+
+219:ASP:D            164:LYS:F       -2.076
+210:HIS:D            285:ILE:F       -0.624
+221:HIS:D            168:ASN:F       -1.420
+236:TRP:D            204:GLU:F       -0.536
+195:VAL:D            163:MET:F       -0.616
+231:PHE:D            236:PRO:F       -0.601
+223:LYS:D            204:GLU:F       -0.766
+238:PHE:D            73:PRO:F        -0.601
+221:HIS:D            165:PHE:F       -0.734
+236:TRP:D            207:TYR:F       -0.590
+220:GLU:D            69:TYR:F        -1.171
+231:PHE:D            235:HIS:F       -0.367
+238:PHE:D            72:SER:F        -1.121
+231:PHE:D            237:LEU:F       -0.910
+238:PHE:D            168:ASN:F       -0.395
+236:TRP:D            167:PRO:F       -1.229
+229:GLN:D            285:ILE:F       -0.688
+189:GLU:D            199:ASN:F       -0.638
+232:ILE:D            282:THR:F       -0.602
+235:LYS:D            207:TYR:F       -0.381
+233:VAL:D            207:TYR:F       -0.669
+219:ASP:D            165:PHE:F       -0.291
+InterfaceTER
+
+InterfaceBEG : 2VDU_B-2VDU_E  
+
+195:VAL:B            163:MET:E       -0.616
+220:GLU:B            69:TYR:E        -1.171
+226:HIS:B            285:ILE:E       -1.248
+195:VAL:B            164:LYS:E       -0.691
+210:HIS:B            285:ILE:E       -0.416
+233:VAL:B            207:TYR:E       -0.334
+231:PHE:B            236:PRO:E       -1.804
+236:TRP:B            167:PRO:E       -0.921
+236:TRP:B            207:TYR:E       -0.590
+241:LYS:B            71:VAL:E        -0.345
+223:LYS:B            204:GLU:E       -0.766
+231:PHE:B            235:HIS:E       -0.367
+219:ASP:B            164:LYS:E       -0.865
+236:TRP:B            204:GLU:E       -0.536
+219:ASP:B            165:PHE:E       -0.583
+221:HIS:B            165:PHE:E       -0.367
+238:PHE:B            72:SER:E        -0.747
+238:PHE:B            73:PRO:E        -0.601
+219:ASP:B            69:TYR:E        -0.390
+221:HIS:B            168:ASN:E       -1.420
+InterfaceTER
+

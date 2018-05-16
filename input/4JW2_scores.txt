@@ -1,0 +1,19 @@
+InterfaceBEG                             : 4JW2_A-4JW2_B  
+Input_pdb                                : 4JW2.pdb  
+Interface                                : 4JW2_A-4JW2_B  
+Number of Interacting Residue Pairs      : 33   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -3.129
+Normalized Raw Score                     : -0.094
+Average Background Score                 : -13.937
+Standard Deviation                       : 0.512 
+Z-score                                  : 21.145
+Normalized Average Background Score      : -0.421
+Normalized Standard Deviation            : 0.016 
+Normalized Z-score                       : 21.157
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+

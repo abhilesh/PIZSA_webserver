@@ -1,0 +1,57 @@
+#######Format Description#######
+
+#This file lists all the amino acid residue pairs that constitute the interfaces in the given protein complex.
+#The residues are split into columns based on the subunits. Each line represents one interacting pair.
+#XXX:YYY:A is the format where XXX = residue number, YYY = residue type & A = protien subunit.
+#For example. 321:ALA:A is the Alanine at position 321 of the subunit A.
+#######Format Description#######
+
+InterfaceBEG : 3E8L_B-3E8L_C  
+
+189:GLN:B            85:VAL:C        -0.514
+214:GLN:B            18:ASN:C        -0.692
+37:TYR:B             117:LEU:C       -0.379
+214:GLN:B            19:TYR:C        -2.624
+58:LYS:B             88:ILE:C        -0.485
+55:HIS:B             88:ILE:C        -0.833
+146:TYR:B            115:PHE:C       -1.165
+58:LYS:B             114:TYR:C       -0.609
+215:LYS:B            18:ASN:C        -0.550
+170:GLN:B            84:PRO:C        -0.664
+210:SER:B            84:PRO:C        -0.513
+37:TYR:B             116:TYR:C       -1.155
+39:PHE:B             88:ILE:C        -0.450
+187:SER:B            87:LEU:C        -0.582
+142:SER:B            14:ASN:C        -2.198
+192:SER:B            87:LEU:C        -1.164
+55:HIS:B             86:PRO:C        -0.577
+189:GLN:B            87:LEU:C        -0.539
+96:LEU:B             86:PRO:C        -0.504
+39:PHE:B             116:TYR:C       -0.450
+206:VAL:B            87:LEU:C        -0.596
+189:GLN:B            115:PHE:C       -0.379
+58:LYS:B             116:TYR:C       -1.143
+94:ASN:B             39:ARG:C        -2.001
+208:TRP:B            84:PRO:C        -0.658
+InterfaceTER
+
+InterfaceBEG : 3E8L_A-3E8L_C  
+
+206:VAL:A            145:LYS:C       -0.345
+144:THR:A            127:SER:C       -0.854
+40:CYS:A             146:ILE:C       -0.457
+37:TYR:A             149:PRO:C       -0.438
+186:ASP:A            145:LYS:C       -0.692
+192:SER:A            145:LYS:C       -0.564
+96:LEU:A             144:CYS:C       -0.455
+187:SER:A            145:LYS:C       -1.694
+214:GLN:A            72:GLN:C        -0.994
+144:THR:A            126:ARG:C       -0.874
+146:TYR:A            126:ARG:C       -0.417
+146:TYR:A            124:GLU:C       -0.390
+189:GLN:A            76:ARG:C        -1.407
+210:SER:A            143:PHE:C       -0.373
+55:HIS:A             144:CYS:C       -2.008
+208:TRP:A            143:PHE:C       -0.323
+InterfaceTER
+

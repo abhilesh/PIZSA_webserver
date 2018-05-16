@@ -1,0 +1,48 @@
+InterfaceBEG                             : 3R2X_B-3R2X_C  
+Input_pdb                                : 3R2X.pdb  
+Interface                                : 3R2X_B-3R2X_C  
+Number of Interacting Residue Pairs      : 17   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -13.618
+Normalized Raw Score                     : -0.801
+Average Background Score                 : -12.477
+Standard Deviation                       : 1.605 
+Z-score                                  : -0.710
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 3R2X_A-3R2X_C  
+Input_pdb                                : 3R2X.pdb  
+Interface                                : 3R2X_A-3R2X_C  
+Number of Interacting Residue Pairs      : 5    
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -3.968
+Normalized Raw Score                     : -0.794
+Average Background Score                 : -3.471
+Standard Deviation                       : 0.711 
+Z-score                                  : -0.698
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 3R2X_A-3R2X_B  
+Input_pdb                                : 3R2X.pdb  
+Interface                                : 3R2X_A-3R2X_B  
+Number of Interacting Residue Pairs      : 48   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -42.290
+Normalized Raw Score                     : -0.881
+Average Background Score                 : -31.335
+Standard Deviation                       : 2.421 
+Z-score                                  : -4.525
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+

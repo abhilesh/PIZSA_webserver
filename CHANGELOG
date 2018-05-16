@@ -1,0 +1,78 @@
+README for PIZSA webserver edition v2.2
+
+This is meant to serve as a changelog document noting all the additions made to PIZSA webserver source code, version 2.2 onwards
+
+The source code can be found in 'scripts/', which is further subdivided into three directories to serve three major functions - 
+'src_InterRes' - contains a subset of the cell_list algorithm scripts; computes the interface residues without running the prediction software
+'src_main' - contains the cell_list algorithm as well as the prediction algorithm; computes all necessary parameters for PIZSA prediction
+'src_mutanal' - contains code for alanine scanning predictions using PIZSA; can be used as a standalone program.
+
+Additional functionalities are added as separated modules and older modules are deprecated when no longer needed.
+Implementation of the additional modules is done in the 'predict_binding.py' script, beta-level changes will be implemented only in the 'predict_binding_interface' function 
+
+Finding clashes - 
+-- Modules added under 'src_main'
+	-- find_clashes.py 
+	-- percent_clash.py
+	-- percent_clash_2.py 
+
+-- find_clashes.py takes in the interacting residue pairs defined by a certain distance threshold and checks for any potential clashes.
+	-- interacting atoms are classified as clashes if the distance between them is less than the sum of the van der Waal's radii of the constituent atoms
+	-- 'Clash severity' is defined as the difference between the distance threshold ('cut_off') used for defining interactions and the interatomic distance
+
+-- percent_clash.py takes in the clashes defined by the previous script and the cifa values computed elsewhere penalizing the clashing residues
+	-- interacting residues classified as clashing are assigned a 'clash-severity' based on the fraction of interacting atoms involved in the clash
+	-- clash penalty is computed through a sigmoidal function that takes 'clash-severity' as input
+	-- DEPRECATED 
+
+-- percent_clash_2.py takes in the clashes defined by the previous script and the cifa values defined elsewhere penalizing the clashing residues
+	-- interacting atoms are classified as clashes according to the definition used in 'find_clashes.py'
+	-- 'new_cifa' for clashing residues is computed by dividing the 'old_cifa' by the 'clash-severity'
+
+Scaling scores for clashing residues - 
+-- Modules added under 'src_main'
+	-- score_complex.py 
+
+-- score_complex_clash.py takes in a the maximum clashes between residue pairs on the interface and penalizes their scores 
+	-- scale_dict output from percent_clash_2 returns the maximum atomic clash for each residue pair on the interface
+	-- for any residue pair on the interface that has atomic clashes, a positive constant ( 1 in the current iteration) is added to the raw score
+	-- the more numerous the clashes, the more unfavourable the raw score of the structure
+	
+
+RESULTS - 
+
+After percent_clash_2.py - 
+	Raw scores as well as Normalized Raw Scores are still more favourable for the decoys than the native structures
+
+After score_complex_clash.py - 
+	PDB_name, Stable, Unstable, Native
+	t53, 0, 1355, Non-binder
+	t50, 1451, 0, Binder (2 Bind, 1 Non-bind)
+	t54, 0, 1387, Binder
+	t41, 0, 1172, Non-binder
+	t40, 0, 2128, Binder
+	t47, 0, 1051, Non-binder
+	t46, 0, 1555, Non-binder 
+	t29, 0, 1972, Binder
+	t38, 0, 874, Binder
+	t39, 0, 1294, Binder
+	t36, 0, 309, Non-binder 
+	t37, 1129, 371, Binder (all)
+	t35, 0, 499, Non-binder
+	t32, 0, 599, Binder 
+	t30, 0, 1201, Binder
+
+	7 / 13 correct predictions for Native structures (t50 anq t37 are multimeric targets)
+
+
+PIZSA webserver edition v2.4_beta
+
+-- New modules : write_out_mm.py (Placeholder till I fix getting normalized z-scores for multimeric structures)
+
+-- New functions/modifications:
+	-- 'score_complex_clash.py' 
+		-- This script now calculates normalized raw scores for the randomized decoys
+	-- 'calc_zscore.py
+		-- Added 'calc_zscore_norm' to calculate the z_scores based on normalized raw scores
+	-- 'write_out.py'
+		-- write_out function now takes the normalized output values and prints it in the main output file

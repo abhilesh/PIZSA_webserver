@@ -1,0 +1,19 @@
+InterfaceBEG                             : 3U43_A-3U43_B  
+Input_pdb                                : 3U43.pdb  
+Interface                                : 3U43_A-3U43_B  
+Number of Interacting Residue Pairs      : 28   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -8.065
+Normalized Raw Score                     : -0.288
+Average Background Score                 : -13.641
+Standard Deviation                       : 1.358 
+Z-score                                  : 4.109
+Normalized Average Background Score      : -0.486
+Normalized Standard Deviation            : 0.049 
+Normalized Z-score                       : 4.100 
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+

@@ -1,0 +1,106 @@
+#######Format Description#######
+
+#This file lists all the amino acid residue pairs that constitute the interfaces in the given protein complex.
+#The residues are split into columns based on the subunits. Each line represents one interacting pair.
+#XXX:YYY:A is the format where XXX = residue number, YYY = residue type & A = protien subunit.
+#For example. 321:ALA:A is the Alanine at position 321 of the subunit A.
+#######Format Description#######
+
+InterfaceBEG : 3BX1_B-3BX1_C  
+
+182:GLN:B            147:TRP:C       -0.886
+209:TYR:B            106:ARG:C       -1.251
+188:SER:B            102:LEU:C       -0.583
+213:THR:B            169:PRO:C       -0.519
+206:GLN:B            168:GLU:C       -0.576
+216:SER:B            149:GLN:C       -0.616
+155:ASN:B            104:ALA:C       -1.374
+204:ASN:B            147:TRP:C       -1.320
+62:ASN:B             106:ARG:C       -0.500
+217:LEU:B            106:ARG:C       -0.421
+203:VAL:B            147:TRP:C       -0.521
+209:TYR:B            154:PHE:C       -0.388
+204:ASN:B            149:GLN:C       -0.712
+InterfaceTER
+
+InterfaceBEG : 3BX1_A-3BX1_C  
+
+96:LEU:A             89:THR:C        -0.509
+101:SER:A            88:THR:C        -0.854
+132:SER:A            87:TYR:C        -0.416
+107:ILE:A            87:TYR:C        -0.783
+130:SER:A            61:ARG:C        -0.473
+220:THR:A            91:LEU:C        -0.509
+104:VAL:A            85:ARG:C        -0.736
+130:SER:A            87:TYR:C        -0.832
+131:PRO:A            61:ARG:C        -0.453
+155:ASN:A            91:LEU:C        -0.639
+221:SER:A            91:LEU:C        -0.582
+64:HIS:A             89:THR:C        -1.677
+101:SER:A            58:PHE:C        -0.708
+33:THR:A             89:THR:C        -1.365
+135:LEU:A            87:TYR:C        -0.758
+128:SER:A            94:THR:C        -0.854
+126:LEU:A            87:TYR:C        -0.379
+62:ASN:A             42:HIS:C        -0.706
+128:SER:A            87:TYR:C        -0.832
+104:VAL:A            87:TYR:C        -0.709
+152:ALA:A            91:LEU:C        -1.404
+101:SER:A            35:MET:C        -0.544
+130:SER:A            94:THR:C        -0.854
+InterfaceTER
+
+InterfaceBEG : 3BX1_C-3BX1_D  
+
+41:ARG:C             110:ILE:D       -0.399
+46:PHE:C             39:HIS:D        -0.713
+42:HIS:C             106:ARG:D       -1.756
+41:ARG:C             99:ASP:D        -0.555
+108:HIS:C            41:ARG:D        -0.477
+99:ASP:C             41:ARG:D        -0.555
+41:ARG:C             46:PHE:D        -0.415
+44:PRO:C             39:HIS:D        -0.964
+46:PHE:C             41:ARG:D        -0.415
+106:ARG:C            42:HIS:D        -1.756
+39:HIS:C             163:PHE:D       -0.367
+41:ARG:C             39:HIS:D        -0.477
+InterfaceTER
+
+InterfaceBEG : 3BX1_A-3BX1_D  
+
+204:ASN:A            147:TRP:D       -1.320
+209:TYR:A            154:PHE:D       -0.777
+203:VAL:A            147:TRP:D       -0.521
+216:SER:A            149:GLN:D       -0.616
+62:ASN:A             106:ARG:D       -0.500
+213:THR:A            169:PRO:D       -0.519
+206:GLN:A            168:GLU:D       -0.576
+155:ASN:A            104:ALA:D       -1.374
+209:TYR:A            106:ARG:D       -1.251
+182:GLN:A            147:TRP:D       -0.591
+217:LEU:A            106:ARG:D       -0.421
+204:ASN:A            149:GLN:D       -0.712
+InterfaceTER
+
+InterfaceBEG : 3BX1_B-3BX1_D  
+
+221:SER:B            91:LEU:D        -0.582
+128:SER:B            87:TYR:D        -0.832
+101:SER:B            58:PHE:D        -0.708
+104:VAL:B            87:TYR:D        -0.354
+101:SER:B            35:MET:D        -0.544
+132:SER:B            85:ARG:D        -0.473
+132:SER:B            87:TYR:D        -0.416
+126:LEU:B            87:TYR:D        -0.379
+103:SER:B            58:PHE:D        -0.354
+152:ALA:B            91:LEU:D        -1.404
+135:LEU:B            87:TYR:D        -0.758
+64:HIS:B             89:THR:D        -1.677
+96:LEU:B             89:THR:D        -0.509
+62:ASN:B             42:HIS:D        -0.471
+107:ILE:B            87:TYR:D        -0.783
+101:SER:B            88:THR:D        -0.854
+220:THR:B            91:LEU:D        -0.509
+155:ASN:B            91:LEU:D        -0.639
+InterfaceTER
+

@@ -1,0 +1,96 @@
+InterfaceBEG                             : 2W83_B-2W83_C  
+Input_pdb                                : 2W83.pdb  
+Interface                                : 2W83_B-2W83_C  
+Number of Interacting Residue Pairs      : 19   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -19.713
+Normalized Raw Score                     : -1.038
+Average Background Score                 : -17.820
+Standard Deviation                       : 1.577 
+Z-score                                  : -1.200
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 2W83_B-2W83_D  
+Input_pdb                                : 2W83.pdb  
+Interface                                : 2W83_B-2W83_D  
+Number of Interacting Residue Pairs      : 9    
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -6.098
+Normalized Raw Score                     : -0.678
+Average Background Score                 : -5.674
+Standard Deviation                       : 0.767 
+Z-score                                  : -0.552
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+
+InterfaceBEG                             : 2W83_A-2W83_C  
+Input_pdb                                : 2W83.pdb  
+Interface                                : 2W83_A-2W83_C  
+Number of Interacting Residue Pairs      : 10   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -8.440
+Normalized Raw Score                     : -0.844
+Average Background Score                 : -8.138
+Standard Deviation                       : 0.927 
+Z-score                                  : -0.325
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+
+InterfaceBEG                             : 2W83_C-2W83_D  
+Input_pdb                                : 2W83.pdb  
+Interface                                : 2W83_C-2W83_D  
+Number of Interacting Residue Pairs      : 52   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -41.802
+Normalized Raw Score                     : -0.804
+Average Background Score                 : -37.045
+Standard Deviation                       : 1.716 
+Z-score                                  : -2.772
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 2W83_A-2W83_E  
+Input_pdb                                : 2W83.pdb  
+Interface                                : 2W83_A-2W83_E  
+Number of Interacting Residue Pairs      : 18   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -16.646
+Normalized Raw Score                     : -0.925
+Average Background Score                 : -15.880
+Standard Deviation                       : 1.251 
+Z-score                                  : -0.611
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+
+InterfaceBEG                             : 2W83_A-2W83_D  
+Input_pdb                                : 2W83.pdb  
+Interface                                : 2W83_A-2W83_D  
+Number of Interacting Residue Pairs      : 15   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -15.738
+Normalized Raw Score                     : -1.049
+Average Background Score                 : -14.096
+Standard Deviation                       : 1.773 
+Z-score                                  : -0.926
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+

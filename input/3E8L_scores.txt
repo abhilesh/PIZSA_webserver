@@ -1,0 +1,32 @@
+InterfaceBEG                             : 3E8L_B-3E8L_C  
+Input_pdb                                : 3E8L.pdb  
+Interface                                : 3E8L_B-3E8L_C  
+Number of Interacting Residue Pairs      : 25   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -21.432
+Normalized Raw Score                     : -0.857
+Average Background Score                 : -15.812
+Standard Deviation                       : 2.131 
+Z-score                                  : -2.638
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 3E8L_A-3E8L_C  
+Input_pdb                                : 3E8L.pdb  
+Interface                                : 3E8L_A-3E8L_C  
+Number of Interacting Residue Pairs      : 16   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -12.291
+Normalized Raw Score                     : -0.768
+Average Background Score                 : -8.855
+Standard Deviation                       : 1.829 
+Z-score                                  : -1.879
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+

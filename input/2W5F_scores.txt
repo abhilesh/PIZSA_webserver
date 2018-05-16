@@ -1,0 +1,19 @@
+InterfaceBEG                             : 2W5F_A-2W5F_B  
+Input_pdb                                : 2W5F.pdb  
+Interface                                : 2W5F_A-2W5F_B  
+Number of Interacting Residue Pairs      : 14   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -6.721
+Normalized Raw Score                     : -0.480
+Average Background Score                 : -9.992
+Standard Deviation                       : 1.083 
+Z-score                                  : 3.023
+Normalized Average Background Score      : -0.713
+Normalized Standard Deviation            : 0.078 
+Normalized Z-score                       : 3.017 
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+

@@ -1,0 +1,15 @@
+Input_pdb                       : 4pza.pdb  
+Interface                       : 4pza_A-4pza_B  
+Number of Interacting Pairs     : 115  
+Distance Threshold              : 4.00
+Potential Type                  : ss
+Raw Score                       : -204.746
+Z-score                         : -4.281
+Average Background Score        : -158.089
+Standard Deviation              : 10.898
+Z-score threshold               : -0.691
+
+
+Congratulations! It BINDS!
+
+

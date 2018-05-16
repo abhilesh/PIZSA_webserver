@@ -1,0 +1,19 @@
+InterfaceBEG                             : 2WPT_A-2WPT_B  
+Input_pdb                                : 2WPT.pdb  
+Interface                                : 2WPT_A-2WPT_B  
+Number of Interacting Residue Pairs      : 26   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -5.724
+Normalized Raw Score                     : -0.220
+Average Background Score                 : -13.764
+Standard Deviation                       : 0.586 
+Z-score                                  : 13.731
+Normalized Average Background Score      : -0.528
+Normalized Standard Deviation            : 0.023 
+Normalized Z-score                       : 13.728
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+

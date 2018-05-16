@@ -1,0 +1,48 @@
+InterfaceBEG                             : 2REX_A-2REX_C  
+Input_pdb                                : 2REX.pdb  
+Interface                                : 2REX_A-2REX_C  
+Number of Interacting Residue Pairs      : 15   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -13.640
+Normalized Raw Score                     : -0.909
+Average Background Score                 : -10.275
+Standard Deviation                       : 1.740 
+Z-score                                  : -1.934
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 2REX_C-2REX_D  
+Input_pdb                                : 2REX.pdb  
+Interface                                : 2REX_C-2REX_D  
+Number of Interacting Residue Pairs      : 17   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -14.481
+Normalized Raw Score                     : -0.852
+Average Background Score                 : -13.818
+Standard Deviation                       : 1.273 
+Z-score                                  : -0.520
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+
+InterfaceBEG                             : 2REX_A-2REX_B  
+Input_pdb                                : 2REX.pdb  
+Interface                                : 2REX_A-2REX_B  
+Number of Interacting Residue Pairs      : 18   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -13.835
+Normalized Raw Score                     : -0.769
+Average Background Score                 : -13.116
+Standard Deviation                       : 1.430 
+Z-score                                  : -0.502
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+

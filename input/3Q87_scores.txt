@@ -1,0 +1,19 @@
+InterfaceBEG                             : 3Q87_A-3Q87_B  
+Input_pdb                                : 3Q87.pdb  
+Interface                                : 3Q87_A-3Q87_B  
+Number of Interacting Residue Pairs      : 27   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -2.730
+Normalized Raw Score                     : -0.101
+Average Background Score                 : -11.222
+Standard Deviation                       : 0.721 
+Z-score                                  : 11.783
+Normalized Average Background Score      : -0.415
+Normalized Standard Deviation            : 0.027 
+Normalized Z-score                       : 11.772
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+

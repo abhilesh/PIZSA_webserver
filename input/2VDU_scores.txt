@@ -1,0 +1,80 @@
+InterfaceBEG                             : 2VDU_E-2VDU_F  
+Input_pdb                                : 2VDU.pdb  
+Interface                                : 2VDU_E-2VDU_F  
+Number of Interacting Residue Pairs      : 15   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -10.351
+Normalized Raw Score                     : -0.690
+Average Background Score                 : -10.687
+Standard Deviation                       : 0.936 
+Z-score                                  : 0.361
+Z-score threshold                        : -0.691
+Unstable association (NON-BINDER)                                                                   
+InterfaceTER
+
+
+InterfaceBEG                             : 2VDU_B-2VDU_F  
+Input_pdb                                : 2VDU.pdb  
+Interface                                : 2VDU_B-2VDU_F  
+Number of Interacting Residue Pairs      : 2    
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -2.488
+Normalized Raw Score                     : -1.244
+Average Background Score                 : -1.921
+Standard Deviation                       : 0.547 
+Z-score                                  : -1.036
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 2VDU_D-2VDU_E  
+Input_pdb                                : 2VDU.pdb  
+Interface                                : 2VDU_D-2VDU_E  
+Number of Interacting Residue Pairs      : 1    
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -1.424
+Normalized Raw Score                     : -1.424
+Average Background Score                 : -0.947
+Standard Deviation                       : 0.440 
+Z-score                                  : -1.084
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 2VDU_D-2VDU_F  
+Input_pdb                                : 2VDU.pdb  
+Interface                                : 2VDU_D-2VDU_F  
+Number of Interacting Residue Pairs      : 22   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -17.033
+Normalized Raw Score                     : -0.774
+Average Background Score                 : -13.982
+Standard Deviation                       : 1.338 
+Z-score                                  : -2.279
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+
+InterfaceBEG                             : 2VDU_B-2VDU_E  
+Input_pdb                                : 2VDU.pdb  
+Interface                                : 2VDU_B-2VDU_E  
+Number of Interacting Residue Pairs      : 20   
+Distance Threshold (A)                   : 4.00
+Potential Type                           : ss
+Raw Score                                : -14.786
+Normalized Raw Score                     : -0.739
+Average Background Score                 : -13.799
+Standard Deviation                       : 1.149 
+Z-score                                  : -0.858
+Z-score threshold                        : -0.691
+Stable association (BINDER)                                                                         
+InterfaceTER
+
+

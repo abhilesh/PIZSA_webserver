@@ -1,0 +1,66 @@
+#######Format Description#######
+
+#This file lists all the amino acid residue pairs that constitute the interfaces in the given protein complex.
+#The residues are split into columns based on the subunits. Each line represents one interacting pair.
+#XXX:YYY:A is the format where XXX = residue number, YYY = residue type & A = protien subunit.
+#For example. 321:ALA:A is the Alanine at position 321 of the subunit A.
+#######Format Description#######
+
+InterfaceBEG : 3Q87_A-3Q87_B  
+
+resPair 73:B-109:A
+109:TYR:A            73:SER:B        0.079 
+resPair 46:B-4:A
+4:PHE:A              46:THR:B        -0.042
+resPair 39:A-26:B
+39:ILE:A             26:ILE:B        -0.155
+resPair 75:B-44:A
+44:MET:A             75:ASN:B        0.038 
+resPair 37:A-24:B
+37:VAL:A             24:MET:B        -0.266
+resPair 73:B-118:A
+118:THR:A            73:SER:B        -0.473
+resPair 64:B-2:A
+2:LYS:A              64:ASN:B        -0.004
+resPair 46:B-39:A
+39:ILE:A             46:THR:B        0.006 
+resPair 67:B-119:A
+119:VAL:A            67:ARG:B        -0.587
+resPair 64:B-4:A
+4:PHE:A              64:ASN:B        -0.127
+resPair 78:B-41:A
+41:ASN:A             78:SER:B        -0.628
+resPair 8:A-48:B
+8:LEU:A              48:VAL:B        0.052 
+resPair 72:B-12:A
+12:LYS:A             72:CYS:B        0.119 
+resPair 52:B-119:A
+119:VAL:A            52:LEU:B        0.052 
+resPair 8:A-78:B
+8:LEU:A              78:SER:B        0.059 
+resPair 67:B-120:A
+120:ASP:A            67:ARG:B        -0.009
+resPair 5:A-48:B
+5:LEU:A              48:VAL:B        0.052 
+resPair 8:A-26:B
+8:LEU:A              26:ILE:B        -0.001
+resPair 67:B-117:A
+117:GLU:A            67:ARG:B        -0.723
+resPair 57:B-115:A
+115:ILE:A            57:LEU:B        -0.352
+resPair 66:B-118:A
+118:THR:A            66:VAL:B        0.025 
+resPair 65:B-115:A
+115:ILE:A            65:LEU:B        -0.001
+resPair 9:A-66:B
+9:LEU:A              66:VAL:B        0.052 
+resPair 8:A-79:B
+8:LEU:A              79:VAL:B        0.052 
+resPair 41:A-26:B
+41:ASN:A             26:ILE:B        0.044 
+resPair 75:B-17:A
+17:MET:A             75:ASN:B        0.038 
+resPair 68:B-118:A
+118:THR:A            68:ALA:B        -0.018
+InterfaceTER
+

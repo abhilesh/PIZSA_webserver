@@ -1,0 +1,98 @@
+#######Format Description#######
+
+#This file lists all the amino acid residue pairs that constitute the interfaces in the given protein complex.
+#The residues are split into columns based on the subunits. Each line represents one interacting pair.
+#XXX:YYY:A is the format where XXX = residue number, YYY = residue type & A = protien subunit.
+#For example. 321:ALA:A is the Alanine at position 321 of the subunit A.
+#######Format Description#######
+
+InterfaceBEG : 4JW3_B-4JW3_C  
+
+41:ASP:B             60:PHE:C        -0.316
+79:ASP:B             94:ARG:C        -0.564
+81:THR:B             90:TRP:C        -0.534
+81:THR:B             91:PHE:C        -0.815
+42:THR:B             29:PHE:C        -0.785
+81:THR:B             94:ARG:C        -0.866
+83:TRP:B             59:ARG:C        -0.312
+InterfaceTER
+
+InterfaceBEG : 4JW3_C-4JW3_D  
+
+94:ARG:C             98:VAL:D        -0.848
+67:TYR:C             94:ARG:D        -1.330
+67:TYR:C             90:TRP:D        -0.368
+90:TRP:C             67:TYR:D        -0.368
+90:TRP:C             102:GLU:D       -0.268
+94:ARG:C             94:ARG:D        -4.165
+98:VAL:C             90:TRP:D        -0.260
+94:ARG:C             67:TYR:D        -1.330
+98:VAL:C             94:ARG:D        -0.726
+102:GLU:C            90:TRP:D        -0.268
+90:TRP:C             98:VAL:D        -0.260
+InterfaceTER
+
+InterfaceBEG : 4JW3_B-4JW3_D  
+
+82:ARG:B             71:GLU:D        -1.125
+78:PHE:B             60:PHE:D        -1.328
+76:PHE:B             36:ALA:D        -1.386
+52:ASN:B             33:ALA:D        -1.374
+81:THR:B             67:TYR:D        -0.976
+50:ALA:B             19:TYR:D        -0.432
+79:ASP:B             63:SER:D        -0.718
+47:TYR:B             36:ALA:D        -0.400
+79:ASP:B             91:PHE:D        -0.316
+79:ASP:B             67:TYR:D        -0.411
+78:PHE:B             91:PHE:D        -0.664
+33:TRP:B             29:PHE:D        -1.941
+47:TYR:B             32:ARG:D        -0.834
+74:GLU:B             40:LYS:D        -0.771
+79:ASP:B             94:ARG:D        -0.564
+InterfaceTER
+
+InterfaceBEG : 4JW3_A-4JW3_C  
+
+54:SER:A             30:VAL:C        -0.684
+79:ASP:A             67:TYR:C        -0.411
+82:ARG:A             71:GLU:C        -1.125
+74:GLU:A             40:LYS:C        -0.771
+52:ASN:A             33:ALA:C        -1.374
+47:TYR:A             32:ARG:C        -0.834
+33:TRP:A             29:PHE:C        -1.941
+76:PHE:A             36:ALA:C        -0.924
+50:ALA:A             19:TYR:C        -0.432
+78:PHE:A             60:PHE:C        -1.328
+79:ASP:A             91:PHE:C        -0.316
+79:ASP:A             63:SER:C        -0.718
+47:TYR:A             36:ALA:C        -0.400
+79:ASP:A             94:ARG:C        -0.564
+82:ARG:A             40:LYS:C        -0.408
+81:THR:A             67:TYR:C        -0.976
+78:PHE:A             91:PHE:C        -1.328
+InterfaceTER
+
+InterfaceBEG : 4JW3_A-4JW3_B  
+
+42:THR:A             37:TRP:B        -0.265
+98:SER:A             42:THR:B        -1.644
+37:TRP:A             42:THR:B        -0.265
+78:PHE:A             77:LEU:B        -0.452
+44:VAL:A             78:PHE:B        -0.886
+77:LEU:A             78:PHE:B        -0.452
+42:THR:A             98:SER:B        -1.644
+45:TRP:A             45:TRP:B        -1.485
+78:PHE:A             44:VAL:B        -0.886
+InterfaceTER
+
+InterfaceBEG : 4JW3_A-4JW3_D  
+
+79:ASP:A             94:ARG:D        -0.564
+81:THR:A             94:ARG:D        -0.866
+42:THR:A             29:PHE:D        -0.785
+83:TRP:A             59:ARG:D        -0.312
+81:THR:A             90:TRP:D        -0.534
+81:THR:A             91:PHE:D        -0.815
+41:ASP:A             60:PHE:D        -0.553
+InterfaceTER
+
