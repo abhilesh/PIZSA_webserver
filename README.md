@@ -42,10 +42,10 @@ USAGE: ./run_predict_binding.py XXXX.pdb -d 8.0 -t mm
 2. Types of interacting atoms between residues: -t, --intertype, 
     choices = {'all', 'mm', 'ms', 'ss'}
 	NOTE: Default value = ss
-	....all - Interactions between all atoms
-	....mm  - Interactions between main chain atoms
-	....ms  - Interactions between main chain atoms and side chain atoms
-	....ss  - Interactions between side chain atoms
+		all - Interactions between all atoms
+		mm  - Interactions between main chain atoms
+		ms  - Interactions between main chain atoms and side chain atoms
+		ss  - Interactions between side chain atoms
 
 3. To specify your own 20x20 matrix for residue-pair scores: -cp, --custom_pot, file
 	NOTE: The custom potential should be in the format of a .csv file with the residue_pair in
