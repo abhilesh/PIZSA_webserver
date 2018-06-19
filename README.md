@@ -1,13 +1,14 @@
 1. USAGE
----------
+--------------
 
 To run the Software Package from the command line using default parameters,
 Run the run_predict_binding.py script as:
+```shell
 ./run_predict_binding.py XXXX.pdb
-
+```
 
 2. INPUT
----------
+--------------
 
 The three dimensional coordinates of the atomic positions of the protein
 complex should be given in a PDB format.
@@ -15,7 +16,7 @@ Place the PDB files in the 'input' directory of the package.
 
 
 3. OUTPUT
-----------
+--------------
 
 After a successful run of the program, the corresponding output files are
 generated in the 'output' directory.
@@ -28,13 +29,13 @@ In case the Alanine Scanning flag is provided, an additional file will be genera
 
 
 4. EXAMPLES
-------------
+--------------
 
 Examples for the input and output files are provided in the 'examples' directory
 
 
 5. ADDITIONAL PARAMETERS
--------------------------
+--------------
 
 Optional flags that can be turned on -
 USAGE: ./run_predict_binding.py XXXX.pdb -d 8.0 -t mm
@@ -77,12 +78,12 @@ This help can be accessed on the command line using:
 
 
 6. SOURCE CODE
----------------
+----------------
 
 All the scripts for the package can be found in the 'scripts' directory.
 
 
 7. LICENSE
------------
+----------------
 
 Please refer to COPYING.txt for the full license or COPYING_LESSER.txt for a condensed version.
