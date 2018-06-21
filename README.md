@@ -34,7 +34,10 @@ Examples for the input and output files are provided in the 'examples' directory
 5. ADDITIONAL PARAMETERS
 --------------
 Optional flags that can be turned on -
-USAGE: ./run_predict_binding.py XXXX.pdb -d 8.0 -t mm
+USAGE: 
+```
+./run_predict_binding.py XXXX.pdb -d 8.0 -t mm
+```
 
 1. Distance threshold for interaction definition: -d, --cutoff, choices = {4.0, 6.0, 8.0}
 	NOTE: Default value = 4.0
