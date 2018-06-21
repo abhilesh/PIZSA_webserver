@@ -70,7 +70,9 @@ USAGE: ./run_predict_binding.py XXXX.pdb -d 8.0 -t mm
 6. To specify a name for the output files, -o, --outfile
 
 This help can be accessed on the command line using:
-./run_predict_binding.py -h or ./run_predict_binding.py --help
+```./run_predict_binding.py -h```
+or 
+```./run_predict_binding.py --help```
 
 
 6. SOURCE CODE
