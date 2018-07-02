@@ -306,10 +306,10 @@ def main_ga():
 
 	return
 
+if __name__ == "__main__":
+	start_time = time.time()
+	main_ga()
+	end_time = time.time()
 
-start_time = time.time()
-main_ga()
-end_time = time.time()
-
-print 'Time elapsed: ', end_time - start_time, 's'
+	print 'Time elapsed: ', end_time - start_time, 's'
 
